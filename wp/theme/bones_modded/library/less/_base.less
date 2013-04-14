@@ -36,7 +36,7 @@ and will be used across all viewports.
 
 body {
 	font-family: @body-font;
-	font-size: 100%;
+	font-size: 80%%;
 	line-height: 1.5;
 	color: #000000;
 }
@@ -196,7 +196,9 @@ h5, .h5 {
 				a {
 					width: 100%;
 					color: @menu-color;
-					font-weight: 200; 
+					font-family: @alt-font;	
+					font-size: 120%;
+					font-weight: 400; 
 					/* on hover */
 					&:hover, &:focus {
 						color: @menu-hover;
@@ -251,7 +253,11 @@ h5, .h5 {
 		line-height: 110%;
 		letter-spacing: 4px;
 	}	
-
+	
+	.graphic-text{
+		width: 100%;
+	}
+	
 	/*
 	#header-consultation {
 		margin: 8px 0px 0px 110px;
@@ -289,7 +295,7 @@ h5, .h5 {
 				text-align: center;
 				margin-top: 10px;
 				color: darken(@white, 20%);
-				font-size: 148%;
+				font-size: 180%;
 			}
 			header-ticker{
 				text-align: left;
@@ -341,16 +347,16 @@ h5, .h5 {
 			outline-offset: -4px;
 			background-color: @header-bar;
 			height:130px;
-			//float: left;
 			color:@white;
 			font-family: @alt-font;
 		
 			h1{
 				font-family: @alt-font;
 				text-align: center;
+				padding-top: 10px;
 				margin-top: 10px;
 				color: darken(@white, 20%);
-				font-size: 148%;
+				font-size: 180%;
 			}
 			header-ticker{
 				text-align: left;
@@ -457,6 +463,26 @@ and more scalable.
 	}
 }
 
+#blog-feed {
+	article{	
+		header{
+			h1{
+				margin-bottom: 0px;
+				font-size: 100%;				
+		}	}
+		section {}
+}	}
+
+#blog-page-header{
+	h1{
+		color: @text-blue;
+		font-family: @hx-font;
+		font-weight: 400;
+		margin-bottom: 0px;
+		font-size: 150%;
+	}
+}
+
 		.hentry {
 
 			header {}
@@ -468,7 +494,12 @@ and more scalable.
 		.single-title,
 		.page-title {}
 
-		.single-title {}
+		.single-title {
+			color: @text-blue;
+			font-family: @hx-font;
+			font-weight: 400;
+			margin-bottom: 0px;
+		}
 
 		.page-title {}
 
@@ -497,13 +528,16 @@ and more scalable.
 			h1{
 				color: @text-blue;
 				font-family: @hx-font;
-				font-weight: bold;
+				font-weight: 400;
 				margin-bottom: 0px;
+				font-size: 150%;
 			}
 			
 			h2{
 				color: black;
-				margin-bottom: 0px
+				margin-bottom: 0px;
+				font-size: 140%;
+				margin-top: 0px;
 			}
 			
 			p {
@@ -535,7 +569,9 @@ and more scalable.
 				color:@text-blue;
 				font-family: @hx-font;
 				font-style: italic;
-				font-size:1.5em;
+				font-size: 95%;
+				font-weight: 300;
+				text-align: center;
 
 				&:before {}
 
@@ -979,7 +1015,11 @@ and more scalable.
 }
 
 	/* comment submit button */
-	#submit {}
+	#submit {
+		border-color: @main-gray;
+		background-color: @header-bar;
+		background-image: none;
+	}
 
 	/* comment form title */
 	#comment-form-title {
@@ -1045,7 +1085,8 @@ and more scalable.
 	color: @white;
 	font-family: @hx-font;
 	text-align: center;
-	font-size: 1.4em;
+	font-size: 125%;
+	font-weight: 300;
 	
 	.testimonial-content{
 		margin: 10px 5px 0px 5px;
@@ -1053,7 +1094,8 @@ and more scalable.
 	
 	.testimonial-cite{
 		font-style: italic;
-		font-size: 70%;
+		font-size: 80%;
+		font-weight: 200;
 	}
 	
 	p{ 
@@ -1061,8 +1103,8 @@ and more scalable.
 	}
 	
 	#testimonial-link{
-		margin-top: 10px;
 		height: 10px;
+		padding-top: 20px;
 		
 	}
 	
@@ -1070,7 +1112,7 @@ and more scalable.
 		color: @text-blue;
 		font-style: italic;
 		text-decoration: underline;
-		font-size: 70%;
+		font-size: 100%;
 		padding-top: 10px;
 		padding-bottom: 10px;
 	}
@@ -1093,7 +1135,7 @@ and more scalable.
 		font-size: 180%;
 		font-weight: 400;
 		margin-bottom: -10px;
-		letter-spacing: 3px;
+		letter-spacing: 1px;
 	}
 	
 	p{
@@ -1106,6 +1148,8 @@ and more scalable.
 		padding-bottom: 20px;
 		letter-spacing: 2px;
 		line-height: 95%;
+		font-weight: 300;
+		
 		a{
 			text-decoration: underline;
 			color: @light-gray;
@@ -1172,6 +1216,8 @@ and more scalable.
 .footer {
 	clear: both;
 	#inner-footer {
+		font-size: 95%;
+	
 	}
 	nav {
 		ul.nav {

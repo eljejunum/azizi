@@ -566,6 +566,11 @@ TYPOGRAPHY
     	font-style: normal;
 	}
 */
+@font-face {
+  font-family: 'Stag';
+  src: url('../fonts/Stag-Medium.otf') format('opentype');
+  font-weight: normal;
+}
 /* 
 use the best ampersand 
 http://simplebits.com/notebook/2008/08/14/ampersands-2/
@@ -773,7 +778,7 @@ and will be used across all viewports.
 *********************/
 body {
   font-family: "verdana", Helvetica, Arial, sans-serif;
-  font-size: 100%;
+  font-size: 80%%;
   line-height: 1.5;
   color: #000000;
 }
@@ -939,7 +944,9 @@ h5,
 .header nav ul.nav li a {
   width: 100%;
   color: #ffffff;
-  font-weight: 200;
+  font-family: "Roboto Condensed", Helvetica, Arial, sans-serif;
+  font-size: 120%;
+  font-weight: 400;
   /* on hover */
 
 }
@@ -1005,6 +1012,9 @@ h5,
   line-height: 110%;
   letter-spacing: 4px;
 }
+#home-banner .graphic-text {
+  width: 100%;
+}
 #home-banner #home-boxes {
   display: none;
 }
@@ -1034,7 +1044,7 @@ h5,
   text-align: center;
   margin-top: 10px;
   color: #cccccc;
-  font-size: 148%;
+  font-size: 180%;
 }
 #home-banner #home-boxes #header-verdicts header-ticker {
   text-align: left;
@@ -1100,9 +1110,10 @@ h5,
 #header-banner #home-boxes #header-verdicts h1 {
   font-family: "Roboto Condensed", Helvetica, Arial, sans-serif;
   text-align: center;
+  padding-top: 10px;
   margin-top: 10px;
   color: #cccccc;
-  font-size: 148%;
+  font-size: 180%;
 }
 #header-banner #home-boxes #header-verdicts header-ticker {
   text-align: left;
@@ -1162,7 +1173,24 @@ and more scalable.
 #content {
   margin-top: 0;
 }
+#blog-feed article header h1 {
+  margin-bottom: 0px;
+  font-size: 100%;
+}
+#blog-page-header h1 {
+  color: #00456a;
+  font-family: "Stag", Georgia, Times, serif;
+  font-weight: 400;
+  margin-bottom: 0px;
+  font-size: 150%;
+}
 /* end .hentry */
+.single-title {
+  color: #00456a;
+  font-family: "Stag", Georgia, Times, serif;
+  font-weight: 400;
+  margin-bottom: 0px;
+}
 /* want to style individual post classes? Booya! */
 /* post by id (i.e. post-3) */
 /* general post style */
@@ -1189,12 +1217,15 @@ and more scalable.
 .entry-content h1 {
   color: #00456a;
   font-family: "Stag", Georgia, Times, serif;
-  font-weight: bold;
+  font-weight: 400;
   margin-bottom: 0px;
+  font-size: 150%;
 }
 .entry-content h2 {
   color: black;
   margin-bottom: 0px;
+  font-size: 140%;
+  margin-top: 0px;
 }
 .entry-content p {
   margin-top: 0px;
@@ -1203,7 +1234,9 @@ and more scalable.
   color: #00456a;
   font-family: "Stag", Georgia, Times, serif;
   font-style: italic;
-  font-size: 1.5em;
+  font-size: 95%;
+  font-weight: 300;
+  text-align: center;
 }
 .entry-content dd {
   margin-left: 0;
@@ -1491,6 +1524,11 @@ and more scalable.
   height: 150px;
 }
 /* comment submit button */
+#submit {
+  border-color: #58595b;
+  background-color: #004065;
+  background-image: none;
+}
 /* comment form title */
 #comment-form-title {
   margin: 0 0 1.1em;
@@ -1523,27 +1561,29 @@ and more scalable.
   color: #ffffff;
   font-family: "Stag", Georgia, Times, serif;
   text-align: center;
-  font-size: 1.4em;
+  font-size: 125%;
+  font-weight: 300;
 }
 #testimonials-sidebar .testimonial-content {
   margin: 10px 5px 0px 5px;
 }
 #testimonials-sidebar .testimonial-cite {
   font-style: italic;
-  font-size: 70%;
+  font-size: 80%;
+  font-weight: 200;
 }
 #testimonials-sidebar p {
   margin-bottom: 0px;
 }
 #testimonials-sidebar #testimonial-link {
-  margin-top: 10px;
   height: 10px;
+  padding-top: 20px;
 }
 #testimonials-sidebar a {
   color: #00456a;
   font-style: italic;
   text-decoration: underline;
-  font-size: 70%;
+  font-size: 100%;
   padding-top: 10px;
   padding-bottom: 10px;
 }
@@ -1563,7 +1603,7 @@ and more scalable.
   font-size: 180%;
   font-weight: 400;
   margin-bottom: -10px;
-  letter-spacing: 3px;
+  letter-spacing: 1px;
 }
 #contact-sidebar p {
   color: #c3c7ca;
@@ -1575,6 +1615,7 @@ and more scalable.
   padding-bottom: 20px;
   letter-spacing: 2px;
   line-height: 95%;
+  font-weight: 300;
 }
 #contact-sidebar p a {
   text-decoration: underline;
@@ -1629,6 +1670,9 @@ and more scalable.
 *********************/
 .footer {
   clear: both;
+}
+.footer #inner-footer {
+  font-size: 95%;
 }
 /*
 	if you checked out the link above:
@@ -1916,6 +1960,9 @@ you can add resource intensive styles.
   #home-banner {
     height: 375px;
   }
+  #home-banner .graphic-text {
+    width: auto;
+  }
   #home-banner #home-special-content {
     padding-left: 75px;
     padding-top: 15px;
@@ -1970,6 +2017,8 @@ you can add resource intensive styles.
   }
   .nav li {
     float: right;
+    font-size: 115%;
+    padding-right: 15px;
     /*
   		plan your menus and drop-downs wisely.
   		*/
@@ -1978,7 +2027,8 @@ you can add resource intensive styles.
   
   }
   .nav li a {
-    padding: 80px 10px 0px 10px;
+    padding: 0px 10px 0px 10px;
+    margin-top: 80px;
     border: none;
     /*
   			you can use hover styles here even though this size
