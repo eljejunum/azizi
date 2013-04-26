@@ -324,6 +324,9 @@ HOME TOP BAR
   width: 340px;
   height: inherit;
 }
+#header-banner #header-banner-text {
+  padding-left: 0px;
+}
 /*********************
 POSTS & CONTENT STYLES
 *********************/
@@ -529,7 +532,7 @@ HEADER SYTLES
   height: 232px;
 }
 #header-banner #header-banner-text {
-  margin-left: 0px;
+  padding-left: 75px;
 }
 #header-banner h1 {
   margin-top: 55px;
@@ -688,6 +691,9 @@ be seen on the Desktop.
 }
 #header-banner #home-boxes {
   display: block;
+}
+#header-banner #header-banner-text {
+  padding-left: 0px;
 }
 /* 
 you can call the larger styles if you want, but there's really no need 

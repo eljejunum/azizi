@@ -9,7 +9,10 @@ Firefox CSS Hacks.
 ******************************************************************/
 
 @-moz-document url-prefix(){
-
+	
+	#search-sidebar{
+		outline-offset: -9px;
+	}	
 	#testimonials-sidebar {
 		outline-offset: -9px;
 	}

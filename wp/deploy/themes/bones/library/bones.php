@@ -162,7 +162,7 @@ function bones_scripts_and_styles() {
 // source: http://code.garyjones.co.uk/ie-conditional-style-sheets-wordpress/
 function bones_ie_conditional( $tag, $handle ) {
 	if ( 'bones-ie-only' == $handle )
-		$tag = '<!--[if lt IE 9]>' . "\n" . $tag . '<![endif]-->' . "\n";
+		$tag = '<!--[if IE]>' . "\n" . $tag . '<![endif]-->' . "\n";
 	return $tag;
 }
 

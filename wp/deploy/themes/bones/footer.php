@@ -17,8 +17,9 @@
 	                			MAIN OFFICE:
 	                		</th>
 	                		<tr class="address-row"><td>
-								509 S. Beverly Drive<br/>
-								Beverly Hills, CA 90212<br/>
+								8383 Wilshire Blvd.<br/>
+								Suite 950<br/>
+								Beverly Hills, CA 90211<br/>
 								(310) 284-9600
 							</td></tr>
 						</table>
@@ -36,14 +37,10 @@
 	                			(323) 544-1441
 	                		</td>
 	                		<td class="address-cell">
-	                			2551 East Gage Ave. <br/>
-								Huntington Park, CA 90255 <br/>
-								(323) 305-7208
-	                		</td>
-	                		<td class="address-cell">
-	                			8520 Venice Blvd. <br/>
-								Los Angeles, CA 90034 <br/>
-								(310) 684-3129
+	                			4505 Allstate Drive<br/>
+	                			Suite 102<br/>
+								Riverside, CA 92501 <br/>
+								(951) 200-4223
 	                		</td>
 	                	</tr></table>
 	                </div>

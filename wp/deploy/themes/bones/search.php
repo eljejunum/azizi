@@ -9,9 +9,11 @@
 
 						<?php if (have_posts()) : ?>
 						
+							<!--REMOVING SEARCH
 							<section class="search">
 							    <p><?php get_search_form(); ?></p>
-							</section> <!-- end search field -->	
+							</section>
+							-->
 												
 						<?php while (have_posts()) : the_post(); ?>
 					

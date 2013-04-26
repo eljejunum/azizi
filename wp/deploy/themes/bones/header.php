@@ -121,8 +121,8 @@
 						<div id ="home-boxes">
 							<div id="header-video">
 								<img src="<?php echo get_template_directory_uri(); ?>/images/azizi_video.jpg">
-								<a href="http://www.youtube.com/watch?v=rfh4Mhp-a6U" rel="wp-video-lightbox" id="play-button">
-									<img  src="<?php echo get_template_directory_uri();?>/images/azizi_header_play-btn.png" alt="legal-video">
+								<a href="http://www.youtube.com/watch?v=M-3VlrceBzY" rel="wp-video-lightbox" id="play-button">
+									<img  src="<?php echo get_template_directory_uri();?>/images/azizi_header_play-btn.png" alt="">
 								</a>
 							</div>
 							<div id="header-verdicts">

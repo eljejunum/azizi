@@ -1,5 +1,12 @@
 				<div id="sidebar1" class="sidebar fourcol last clearfix" role="complementary">
 					
+					<!--Search Bar-->
+					<div class="widget" id="search-sidebar">
+						<div id="search-element"> 
+							<p><?php get_search_form(); ?></p>
+						</div>	
+					</div>
+					
 					<!--Testimonials Content-->
 					<div class="widget" id="testimonials-sidebar">
 					<div class="sidebar-spacer"></div>
@@ -48,22 +55,33 @@
 						<h1>PRACTICE AREAS</h1>
 						<table id="practice-table"><tr><td>
 						<ul>
-							<li>lorem ipsum</li>
-							<li>lorem ipsum</li>
-							<li>lorem ipsum</li>
-							<li>lorem ipsum</li>
-							<li>lorem ipsum</li>
-							<li>lorem ipsum</li>
+							<li>Amputation Injury</li>
+							<li>Bike Accidents</li>
+							<li>Brain Injury</li>
+							<li>Burn, Fire, & Explosion Injury</li>
+							<li>Bus Accidents</li>
+							<li>Car Accidents</li>
+							<li>Claims Against Government/Public Entities</li>
+							<li>Construction Accidents</li>
+							<li>Dangerous Roads</li>
+							<li>Defective Products</li>
+							<li>Dog Bites & Attacks</li>
 						</ul>
 						</td>
 						<td>
 						<ul>
-							<li>lorem ipsum</li>
-							<li>lorem ipsum</li>
-							<li>lorem ipsum</li>
-							<li>lorem ipsum</li>
-							<li>lorem ipsum</li>
-							<li>lorem ipsum</li>
+							<li>Electrocution Accidents</li>
+							<li>Motorcycle Accidents</li>
+							<li>Negligent Security</li>
+							<li>Paraplegia Injury</li>
+							<li>Pedestrian Accidents</li>
+							<li>Quadriplegia Injury</li>
+							<li>Slip & Fall Accidents</li>
+							<li>Spinal Cord Injury</li>
+							<li>Train Accidents</li>
+							<li>Truck Accidents</li>
+							<li>Vehicle Rollovers</li>
+							<li>Wrongful Death</li>
 						</ul>
 						</td></tr></table>
 					</div>
@@ -72,15 +90,6 @@
 					<?php if ( is_active_sidebar( 'sidebar1' ) ) : ?>
 
 						<?php dynamic_sidebar( 'sidebar1' ); ?>
-
-					<?php else : ?>
-
-						<!-- This content shows up if there are no widgets defined in the backend. 
-						
-						<div class="alert help">
-							<p><?php _e("Please activate some Widgets.", "bonestheme");  ?></p>
-						</div>
-						-->
 
 					<?php endif; ?>
 
