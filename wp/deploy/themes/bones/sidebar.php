@@ -27,7 +27,7 @@
 							$post_id = get_the_ID();
 						?>
 							<div class="testimonial-content">
-								<?php the_content(); ?>
+								<?php echo get_post_meta($post->ID, 'testimonial-preview', true); ?>
 							</div>
 							
 							<div class="testimonial-cite">
@@ -42,46 +42,47 @@
 					</div>
 					
 					<!--Email Me Content-->
-					<div class="widget" id="contact-sidebar">
-						
+					<div class="widget" id="contact-sidebar">		
 						<h1>HAVE A QUESTION?</h1>
 						<p>Email me anytime,<br/>
-						just <a href="mailto:<?php echo get_option( 'admin_email', '' ); ?>">click here</a>.</p>
-						
+						just <a href="#mail-popup" rel="wp-video-lightbox">click here</a>.</p>
 					</div>
+						<div id="mail-popup" style="display:none;">
+							<?php echo do_shortcode('[contact-form-7 id="210" title="Contact form 1"]'); ?>
+						</div>
 					
 					<!--Practice Areas Content-->
 					<div class="widget" id="practice-sidebar">
 						<h1>PRACTICE AREAS</h1>
 						<table id="practice-table"><tr><td>
 						<ul>
-							<li>Amputation Injury</li>
-							<li>Bike Accidents</li>
-							<li>Brain Injury</li>
-							<li>Burn, Fire, & Explosion Injury</li>
-							<li>Bus Accidents</li>
-							<li>Car Accidents</li>
-							<li>Claims Against Government/Public Entities</li>
-							<li>Construction Accidents</li>
-							<li>Dangerous Roads</li>
-							<li>Defective Products</li>
-							<li>Dog Bites & Attacks</li>
+							<li><a href="<?php echo home_url()?>/amputation-injury">Amputation Injury</a></li>
+							<li><a href="<?php echo home_url()?>/bike-accidents">Bike Accidents</a></li>
+							<li><a href="<?php echo home_url()?>/brain-injury">Brain Injury</a></li>
+							<li><a href="<?php echo home_url()?>/burn-fire-and-explosion-injuries">Burn, Fire, & Explosion Injury</a></li>
+							<li><a href="<?php echo home_url()?>/bus-accidnets">Bus Accidents</a></li>
+							<li><a href="<?php echo home_url()?>/car-accidents">Car Accidents</a></li>
+							<li><a href="<?php echo home_url()?>/claims-against-public-government-entities">Claims Against Government/Public Entities</a></li>
+							<li><a href="<?php echo home_url()?>/construction-accidents">Construction Accidents</a></li>
+							<li><a href="<?php echo home_url()?>/defective-and-dangerous-roads">Dangerous Roads</a></li>
+							<li><a href="<?php echo home_url()?>/defective-products">Defective Products</a></li>
+							<li><a href="<?php echo home_url()?>/dog-bites-and-attacks">Dog Bites & Attacks</a></li>
 						</ul>
 						</td>
 						<td>
 						<ul>
-							<li>Electrocution Accidents</li>
-							<li>Motorcycle Accidents</li>
-							<li>Negligent Security</li>
-							<li>Paraplegia Injury</li>
-							<li>Pedestrian Accidents</li>
-							<li>Quadriplegia Injury</li>
-							<li>Slip & Fall Accidents</li>
-							<li>Spinal Cord Injury</li>
-							<li>Train Accidents</li>
-							<li>Truck Accidents</li>
-							<li>Vehicle Rollovers</li>
-							<li>Wrongful Death</li>
+							<li><a href="<?php echo home_url()?>/electrocution-accidents">Electrocution Accidents</a></li>
+							<li><a href="<?php echo home_url()?>/motorcycle-accidents">Motorcycle Accidents</a></li>
+							<li><a href="<?php echo home_url()?>/negligent-security">Negligent Security</a></li>
+							<li><a href="<?php echo home_url()?>/paraplegia-injuries">Paraplegia Injury</a></li>
+							<li><a href="<?php echo home_url()?>/pedestrian-accidents">Pedestrian Accidents</a></li>
+							<li><a href="<?php echo home_url()?>/quadriplegia-injuries">Quadriplegia Injury</a></li>
+							<li><a href="<?php echo home_url()?>/slip-and-fall">Slip & Fall Accidents</a></li>
+							<li><a href="<?php echo home_url()?>/spinal-cord-injuries">Spinal Cord Injury</a></li>
+							<li><a href="<?php echo home_url()?>/train-accidents">Train Accidents</a></li>
+							<li><a href="<?php echo home_url()?>/truck-accidents">Truck Accidents</a></li>
+							<li><a href="<?php echo home_url()?>/vehicle-rollovers">Vehicle Rollovers</a></li>
+							<li><a href="<?php echo home_url()?>/wrongful-death">Wrongful Death</a></li>
 						</ul>
 						</td></tr></table>
 					</div>
@@ -93,4 +94,4 @@
 
 					<?php endif; ?>
 
-				</div>
+				</div>			
