@@ -1,0 +1,53 @@
+/******************************************************************
+Site Name: David Azizi 
+Author: Jordan Mirrer
+
+Stylesheet: Firefox Stylesheet
+
+Firefox CSS Hacks.
+
+******************************************************************/
+
+@-moz-document url-prefix(){
+	
+	#search-sidebar{
+		outline-offset: -9px;
+	}	
+	#testimonials-sidebar {
+		outline-offset: -9px;
+	}
+	
+	#contact-sidebar{
+		outline-offset: -9px;
+	}
+	
+	#practice-sidebar{
+		outline-offset: -9px;
+	}
+
+	#home-banner #home-boxes #header-verdicts{
+		outline-offset: -9px;
+	}
+
+	#header-banner #home-boxes #header-verdicts{
+		outline-offset: -9px;
+		margin-left: 10px;
+	}
+	
+	#header-banner #home-boxes #header-verdicts #header-ticker {
+		margin-top: -15px;
+	}
+	
+	#awards-bar{
+		outline-offset: -9px;
+	}
+
+	.nav li a{
+		margin-top: 75px;
+	}
+	
+	#header-banner #header-banner-text {
+		padding-left: 0px;
+	}
+
+}
