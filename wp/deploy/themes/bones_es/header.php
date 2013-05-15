@@ -55,11 +55,17 @@
 			<header class="header" role="banner">
 
 				<div id="inner-header" class="wrap clearfix">
+				
+					<div id="mobile-top-tabs">
+						<a id="phone-tab" href="tel:18883437436"><img src="<?php echo get_template_directory_uri(); ?>/images/azizi_phone.png"></a>
+						<a id="email-tab" href="#mail-popup" rel="wp-video-lightbox"><img src="<?php echo get_template_directory_uri(); ?>/images/azizi_email.png"></a>
+						<a id="espanol-tab" href="../espanol"><img src="<?php echo get_template_directory_uri(); ?>/images/azizi_espanol.png"></a>
+					</div>
 					
 					<a href="<?php echo home_url(); ?>" rel="nofollow"><img id="logo" src="<?php echo get_template_directory_uri(); ?>/images/azizi_logo.png"></a>
 					
 					<div id="top-tabs">
-						<a id="phone-tab" href="tel:18009915292"><img src="<?php echo get_template_directory_uri(); ?>/images/azizi_phone.png"></a>
+						<a id="phone-tab" href="tel:18883437436"><img src="<?php echo get_template_directory_uri(); ?>/images/azizi_phone.png"></a>
 						<a id="email-tab" href="#mail-popup" rel="wp-video-lightbox"><img src="<?php echo get_template_directory_uri(); ?>/images/azizi_email.png"></a>
 						<a id="espanol-tab" href="../main"><img src="<?php echo get_template_directory_uri(); ?>/images/azizi_espanol.png"></a>
 					</div>
@@ -116,7 +122,7 @@
 				
 					<div class="ninecol clearfix" id="home-special-content">
 						<div>
-							<img class="graphic-text" src="<?php echo get_template_directory_uri();?>/images/azizi_header_text_01.png">
+							<img id="text-01" class="graphic-text" src="<?php echo get_template_directory_uri();?>/images/azizi_header_text_01.png">
 						</div>
 						<div id ="home-boxes">
 							<div id="header-video">
@@ -134,7 +140,7 @@
 						</div>
 					
 						<div id="header-consultation">
-							<img class="graphic-text" src="<?php echo get_template_directory_uri();?>/images/azizi_header_text_02.png">
+							<img id="text-02" class="graphic-text" src="<?php echo get_template_directory_uri();?>/images/azizi_header_text_02.png">
 						</div>
 					
 					</div>

@@ -958,6 +958,13 @@ h5,
 #top-tabs {
   display: none;
 }
+#mobile-top-tabs {
+  display: block;
+  top: 0px;
+  height: 30px;
+  margin-left: -5px;
+  z-index: 1000;
+}
 #home-banner {
   width: 100%;
   color: #58595b;
@@ -974,6 +981,10 @@ h5,
 	}
 	*/
 
+}
+#home-banner #home-features {
+  height: 180px;
+  overflow-y: hidden;
 }
 #home-banner h1 {
   font-size: 175%;
@@ -993,14 +1004,18 @@ h5,
   line-height: 110%;
   letter-spacing: 4px;
 }
-#home-banner .graphic-text {
+#home-banner #home-special-content .graphic-text {
   width: 100%;
+}
+#home-banner #home-special-content #text-01 {
+  margin-top: -40px;
 }
 #home-banner #home-boxes {
   display: none;
 }
 #home-banner #home-boxes #header-video {
   float: left;
+  display: none;
 }
 #home-banner #home-boxes #play-button {
   position: absolute;
@@ -1038,7 +1053,7 @@ h5,
   line-height: 1.5em;
   background-image: url(azizi_home_bg.jpg);
   background-repeat: no-repeat;
-  background-size: 100% 232px;
+  background-size: 100% 475px;
   /* IE9 SVG, needs conditional override of 'filter' to 'none' */
 
 }
@@ -1048,6 +1063,8 @@ h5,
 #header-banner #home-features {
   margin-left: auto;
   margin-right: auto;
+  height: 180px;
+  overflow-y: hidden;
 }
 #header-banner #header-consultation {
   margin: 8px 0px 0px 110px;
@@ -1057,6 +1074,7 @@ h5,
   display: block;
   margin-left: 0px;
   padding-left: 0px;
+  width: 100%;
 }
 #header-banner #home-boxes {
   display: none;
@@ -1108,6 +1126,7 @@ and more scalable.
 
 }
 .nav li {
+  border-bottom: 1px solid #ffffff;
   /*
 		so you really have to rethink your dropdowns for mobile.
 		you don't want to have it expand too much because the
@@ -1116,6 +1135,9 @@ and more scalable.
 		http://www.alistapart.com/articles/organizing-mobile/
 		*/
 
+}
+.nav li a:after {
+  content: " >> ";
 }
 .nav li a {
   display: block;
@@ -1129,6 +1151,9 @@ and more scalable.
 			keep this file as small as possible!
 			*/
 
+}
+.nav li:last-child {
+  border: none;
 }
 .nav li ul.sub-menu li a,
 .nav li ul.children li a {
@@ -1524,7 +1549,9 @@ and more scalable.
 }
 #search-sidebar {
   outline: 4px double #58595b;
+  outline-offset: -4px;
   background-color: #e6e6e6;
+  margin-bottom: 10px;
 }
 #search-sidebar #search-element {
   padding-top: 10px;
@@ -1573,6 +1600,14 @@ and more scalable.
   outline-offset: -4px;
   color: #ffffff;
   text-align: center;
+}
+#contact-sidebar .wpcf7-form-control {
+  width: 90%;
+}
+#contact-sidebar input.wpcf7-form-control.wpcf7-submit {
+  width: 100px;
+  margin-left: auto;
+  margin-right: auto;
 }
 #contact-sidebar h1 {
   font-family: "Roboto Condensed", Helvetica, Arial, sans-serif;
@@ -1745,6 +1780,12 @@ tweeners.
   /*********************
   HOME TOP BAR
   *********************/
+  #home-banner #home-special-content .graphic-text {
+    width: 400px;
+  }
+  #home-banner #home-special-content #text-01 {
+    margin-top: -42px;
+  }
   #home-boxes #header-video {
     background-color: black;
     width: 180px;
@@ -1757,6 +1798,9 @@ tweeners.
   }
   #header-banner #header-banner-text {
     padding-left: 0px;
+  }
+  #header-banner .graphic-text {
+    width: 380px;
   }
   /*********************
   POSTS & CONTENT STYLES
@@ -1937,11 +1981,21 @@ you can add resource intensive styles.
   #top-tabs a {
     height: 30px;
   }
+  #mobile-top-tabs {
+    display: none;
+  }
   #home-banner {
     height: 375px;
   }
-  #home-banner .graphic-text {
+  #home-banner #home-features {
+    height: auto;
+    overflow: visible;
+  }
+  #home-banner #home-special-content .graphic-text {
     width: auto;
+  }
+  #home-banner #home-special-content #text-01 {
+    margin-top: 0px;
   }
   #home-banner #home-special-content {
     padding-left: 75px;
@@ -1963,17 +2017,23 @@ you can add resource intensive styles.
     height: inherit;
   }
   #home-banner #header-consultation {
-    padding-left: 102px;
+    padding-left: 55px;
     padding-top: 5px;
   }
   #header-banner {
+    background-size: 100% 232px;
     height: 232px;
+  }
+  #header-banner #home-features {
+    height: auto;
   }
   #header-banner #header-banner-text {
     padding-left: 75px;
+    width: auto;
   }
   #header-banner h1 {
     margin-top: 55px;
+    margin-bottom: 5px;
   }
   #header-banner #home-boxes {
     height: 130px;
@@ -1999,12 +2059,16 @@ you can add resource intensive styles.
     float: right;
     font-size: 115%;
     padding-right: 15px;
+    border: none;
     /*
   		plan your menus and drop-downs wisely.
   		*/
   
     /* showing sub-menus */
   
+  }
+  .nav li a:after {
+    content: "";
   }
   .nav li a {
     padding: 0px 10px 0px 10px;
@@ -2135,11 +2199,20 @@ you can add resource intensive styles.
   #home-banner #home-boxes {
     padding-left: 110px;
   }
+  #home-banner #home-boxes #header-video {
+    display: block;
+  }
+  #home-banner #header-consultation {
+    padding-left: 102px;
+  }
   #header-banner #home-boxes {
     display: block;
   }
   #header-banner #header-banner-text {
     padding-left: 0px;
+  }
+  #contact-sidebar .wpcf7-form-control {
+    width: 300px;
   }
 }
 /*

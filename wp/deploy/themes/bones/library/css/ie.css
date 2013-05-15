@@ -314,6 +314,12 @@ NAVIGATION STYLES
 /*********************
 HOME TOP BAR
 *********************/
+#home-banner #home-special-content .graphic-text {
+  width: 400px;
+}
+#home-banner #home-special-content #text-01 {
+  margin-top: -42px;
+}
 #home-boxes #header-video {
   background-color: black;
   width: 180px;
@@ -326,6 +332,9 @@ HOME TOP BAR
 }
 #header-banner #header-banner-text {
   padding-left: 0px;
+}
+#header-banner .graphic-text {
+  width: 380px;
 }
 /*********************
 POSTS & CONTENT STYLES
@@ -499,11 +508,21 @@ HEADER SYTLES
 #top-tabs a {
   height: 30px;
 }
+#mobile-top-tabs {
+  display: none;
+}
 #home-banner {
   height: 375px;
 }
-#home-banner .graphic-text {
+#home-banner #home-features {
+  height: auto;
+  overflow: visible;
+}
+#home-banner #home-special-content .graphic-text {
   width: auto;
+}
+#home-banner #home-special-content #text-01 {
+  margin-top: 0px;
 }
 #home-banner #home-special-content {
   padding-left: 75px;
@@ -525,17 +544,23 @@ HEADER SYTLES
   height: inherit;
 }
 #home-banner #header-consultation {
-  padding-left: 102px;
+  padding-left: 55px;
   padding-top: 5px;
 }
 #header-banner {
+  background-size: 100% 232px;
   height: 232px;
+}
+#header-banner #home-features {
+  height: auto;
 }
 #header-banner #header-banner-text {
   padding-left: 75px;
+  width: auto;
 }
 #header-banner h1 {
   margin-top: 55px;
+  margin-bottom: 5px;
 }
 #header-banner #home-boxes {
   height: 130px;
@@ -561,12 +586,16 @@ NAVIGATION STYLES
   float: right;
   font-size: 115%;
   padding-right: 15px;
+  border: none;
   /*
 		plan your menus and drop-downs wisely.
 		*/
 
   /* showing sub-menus */
 
+}
+.nav li a:after {
+  content: "";
 }
 .nav li a {
   padding: 0px 10px 0px 10px;
@@ -689,11 +718,20 @@ be seen on the Desktop.
 #home-banner #home-boxes {
   padding-left: 110px;
 }
+#home-banner #home-boxes #header-video {
+  display: block;
+}
+#home-banner #header-consultation {
+  padding-left: 102px;
+}
 #header-banner #home-boxes {
   display: block;
 }
 #header-banner #header-banner-text {
   padding-left: 0px;
+}
+#contact-sidebar .wpcf7-form-control {
+  width: 300px;
 }
 /* 
 you can call the larger styles if you want, but there's really no need 

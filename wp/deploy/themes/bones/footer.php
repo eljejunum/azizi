@@ -4,10 +4,12 @@
 	                
 	                <div id="awards-bar" class="twelvecol first clearfix">
 	                	<div id="footer-images">
-	                	<img src="<?php echo get_template_directory_uri(); ?>/images/azizi_footer_01.png">
-	                	<img src="<?php echo get_template_directory_uri(); ?>/images/azizi_footer_02.png">
-	                	<img src="<?php echo get_template_directory_uri(); ?>/images/azizi_footer_03.png">
-	                	</div>
+							<div class="threecol first clearfix"><img src="<?php echo get_template_directory_uri(); ?>/images/azizi_footer_02.png"></div>
+							<div class="twocol clearfix"><img src="<?php echo get_template_directory_uri(); ?>/images/azizi_footer_01.png"></div>
+							<div class="twocol clearfix"><img src="<?php echo get_template_directory_uri(); ?>/images/azizi_footer_03.png"></div>
+							<div class="twocol clearfix"><a href="http://www.superlawyers.com/california-southern/lawyer/David-Azizi/0312803c-6ea2-4bc9-9e29-0bdbe2ac3e67.html"><img src="<?php echo get_template_directory_uri(); ?>/images/superLawyers.png"></a></div>
+							<div class="threecol clearfix"><img src="<?php echo get_template_directory_uri(); ?>/images/bar_assoc.jpg"></div>
+						</div>
 	                </div>
 	                <div class="row spacer"></div>
 	                <div class="twocol first clearfix"></div>

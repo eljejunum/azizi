@@ -15,7 +15,7 @@
 						$query_array = array(
 							'post_type' => 'post',
 							'orderby' => 'date',
-							'order' => 'ASC',
+							'order' => 'DESC',
 							'category_name' => 'testimonials',
 							'posts_per_page' => '3'
 						);
@@ -44,11 +44,15 @@
 					<!--Email Me Content-->
 					<div class="widget" id="contact-sidebar">		
 						<h1>HAVE A QUESTION?</h1>
+						<?php echo do_shortcode('[contact-form-7 id="267" title="Contact form 2"]'); ?>
+						<!-- Commenting Out Content
 						<p>Email me anytime,<br/>
 						just <a href="#mail-popup" rel="wp-video-lightbox">click here</a>.</p>
+						End Comment Out -->
+						
 					</div>
 						<div id="mail-popup" style="display:none;">
-							<?php echo do_shortcode('[contact-form-7 id="210" title="Contact form 1"]'); ?>
+							<?php echo do_shortcode('[contact-form-7 id="212" title="Contact form 1"]'); ?>
 						</div>
 					
 					<!--Practice Areas Content-->
