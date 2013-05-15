@@ -218,6 +218,14 @@ h5, .h5 {
 	display: none;
 }
 
+#mobile-top-tabs{
+	display: block;
+	top: 0px;
+	height: 30px;
+	margin-left: -5px;
+	z-index: 1000;
+}
+
 #home-banner {
 	width: 100%;
 	color: @main-gray;
@@ -236,7 +244,13 @@ h5, .h5 {
 	//background: -ms-linear-gradient(left,  rgba(164,166,169,1) 0%,rgba(164,166,169,0.6) 30%,rgba(164,166,169,0.35) 50%,rgba(164,166,169,0.6) 70%,rgba(164,166,169,1) 100%); /* IE10+ */
 	//background: linear-gradient(to right,  rgba(164,166,169,1) 0%,rgba(164,166,169,0.6) 30%,rgba(164,166,169,0.35) 50%,rgba(164,166,169,0.6) 70%,rgba(164,166,169,1) 100%); /* W3C */
 	//filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a4a6a9', endColorstr='#a4a6a9',GradientType=1 ); /* IE6-8 */
-	
+	#home-features{
+		height: 180px;
+		overflow-y: hidden;
+		
+		#azizi-bust{
+		}
+	}
 	h1 {
 		font-size:175%;
 		margin-bottom: 0px;
@@ -258,8 +272,13 @@ h5, .h5 {
 		letter-spacing: 4px;
 	}	
 	
-	.graphic-text{
-		width: 100%;
+	#home-special-content{
+		.graphic-text{
+			width: 100%;
+		}
+		#text-01{
+			margin-top: -40px;
+		}
 	}
 	
 	/*
@@ -273,6 +292,7 @@ h5, .h5 {
 		display: none;
 		#header-video{
 			float: left;
+			display: none;  
 		}
 		
 		#play-button{
@@ -317,7 +337,7 @@ h5, .h5 {
 	
 	background-image: url(azizi_home_bg.jpg);
 	background-repeat: no-repeat;
-	background-size: 100% 232px;
+	background-size: 100% 475px;
 	
 	/* IE9 SVG, needs conditional override of 'filter' to 'none' */
 	//background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIxMDAlIiB5Mj0iMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2E0YTZhOSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjMwJSIgc3RvcC1jb2xvcj0iI2E0YTZhOSIgc3RvcC1vcGFjaXR5PSIwLjYiLz4KICAgIDxzdG9wIG9mZnNldD0iNTAlIiBzdG9wLWNvbG9yPSIjYTRhNmE5IiBzdG9wLW9wYWNpdHk9IjAuMzUiLz4KICAgIDxzdG9wIG9mZnNldD0iNzAlIiBzdG9wLWNvbG9yPSIjYTRhNmE5IiBzdG9wLW9wYWNpdHk9IjAuNiIvPgogICAgPHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjYTRhNmE5IiBzdG9wLW9wYWNpdHk9IjEiLz4KICA8L2xpbmVhckdyYWRpZW50PgogIDxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxIiBoZWlnaHQ9IjEiIGZpbGw9InVybCgjZ3JhZC11Y2dnLWdlbmVyYXRlZCkiIC8+Cjwvc3ZnPg==);
@@ -336,6 +356,8 @@ h5, .h5 {
 	#home-features{
 		margin-left: auto;
 		margin-right: auto;
+		height: 180px;
+		overflow-y: hidden;
 	}
 
 	#header-consultation {
@@ -347,6 +369,7 @@ h5, .h5 {
 		display:block;
 		margin-left:0px; 
 		padding-left:0px;
+		width: 100%;
 	}
 	
 	#home-boxes{
@@ -399,7 +422,12 @@ and more scalable.
 .nav {
 	background-color: @header-bar;
 
+	
 	li {
+	
+		border-bottom: 1px solid @white;
+		
+		a:after { content: " >> "; }
 		a {
 			display: block;
 			text-decoration: none;
@@ -419,7 +447,7 @@ and more scalable.
 
 		&:first-child {}
 
-		&:last-child {}
+		&:last-child { border: none;}
 
 		/*
 		so you really have to rethink your dropdowns for mobile.
@@ -1094,7 +1122,9 @@ and more scalable.
 
 #search-sidebar{
 	outline: 4px double @main-gray;
+	outline-offset: -4px;
 	background-color: darken(@white, 10%);
+	margin-bottom: 10px;
 	
 	#search-element{
 		padding-top: 10px;
@@ -1154,6 +1184,17 @@ and more scalable.
 	outline-offset: -4px;
 	color: @white;
 	text-align: center;
+	
+	.wpcf7-form-control{
+		width: 90%;
+	}
+	
+	input.wpcf7-form-control.wpcf7-submit{
+		width: 100px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
 	
 	h1{
 		font-family: @alt-font;

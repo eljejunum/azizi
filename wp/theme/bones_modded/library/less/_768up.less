@@ -64,13 +64,28 @@ HEADER SYTLES
 		#espanol-tab{
 		}
 	}
+	
+#mobile-top-tabs{
+	display: none;
+}
 
 #home-banner {
 	height: 375px;
 	
-	.graphic-text{
-		width: auto;
+	#home-features{
+		height: auto;
+		overflow: visible;
+	}
+	
+	#home-special-content{
+		.graphic-text{
+			width: auto;
+		}
+		#text-01{
+			margin-top: 0px;
+		}
 	}	
+		
 	#home-special-content{
 		padding-left: 75px;
 		padding-top: 15px;
@@ -95,21 +110,29 @@ HEADER SYTLES
 	}
 	
 	#header-consultation{
-		padding-left: 102px;
+		padding-left: 55px;
 		padding-top: 5px;  
 	}
 	
 }	
 
 #header-banner {
+	background-size: 100% 232px;
+	
 	height: 232px;
+	
+	#home-features{
+		height: auto;
+	}
 	
 	#header-banner-text{
 		padding-left: 75px;
+		width: auto;
 	}
 		
 	h1{
 		margin-top: 55px;
+		margin-bottom: 5px;
 	}
 	
 	#home-boxes{
@@ -131,13 +154,17 @@ NAVIGATION STYLES
 
 .nav {
 	background-color: @header-bar;
+	
+	
 		
 	li {	
 	
 		float: right;
 		font-size: 115%;
 		padding-right: 15px;
+		border: none;
 		
+		a:after { content: ""; }
 		a {
 			padding: 0px 10px 0px 10px;
 			margin-top: 80px;
