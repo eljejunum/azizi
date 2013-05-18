@@ -39,12 +39,12 @@
 		<?php wp_head(); ?>
 		<!-- end of wordpress head -->
 
-		<!-- drop Google Analytics Here -->
-		<!-- end analytics -->
-
 		<!-- CSS HACKS -->
 		<!-- FIREFOX -->
 		<link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/library/css/moz.css" />
+
+		<!-- drop Google Analytics Here -->
+		<!-- end analytics -->
 
 	</head>
 
@@ -57,17 +57,17 @@
 				<div id="inner-header" class="wrap clearfix">
 					
 					<div id="mobile-top-tabs">
-						<a id="phone-tab" href="tel:18009915292"><img src="<?php echo get_template_directory_uri(); ?>/images/azizi_phone.png"></a>
-						<a id="email-tab" href="#mail-popup" rel="wp-video-lightbox"><img src="<?php echo get_template_directory_uri(); ?>/images/azizi_email.png"></a>
-						<a id="espanol-tab" href="../espanol"><img src="<?php echo get_template_directory_uri(); ?>/images/azizi_espanol.png"></a>
+						<a id="phone-mobile-tab" href="tel:18009915292"><img alt="phone number" src="<?php echo get_template_directory_uri(); ?>/images/azizi_phone.png" height="31" width="188"></a>
+						<!--<a id="email-tab" href="#mail-popup" rel="wp-video-lightbox"><img src="<?php echo get_template_directory_uri(); ?>/images/azizi_email.png"></a>-->
+						<a id="espanol-mobile-tab" href="http://<?php echo $_SERVER['HTTP_HOST'] ?>/dev/espanol"><img alt="Spanish Site" src="<?php echo get_template_directory_uri(); ?>/images/azizi_espanol.png" height="31" width="64"></a>
 					</div>
 					
-					<a href="<?php echo home_url(); ?>" rel="nofollow"><img id="logo" src="<?php echo get_template_directory_uri(); ?>/images/azizi_logo.png"></a>
+					<a href="<?php echo home_url(); ?>" rel="nofollow"><img alt="David Azizi Law Offices Logo" id="logo" src="<?php echo get_template_directory_uri(); ?>/images/azizi_logo.png" width="330" height="51"></a>
 					
 					<div id="top-tabs">
-						<a id="phone-tab" href="tel:18009915292"><img src="<?php echo get_template_directory_uri(); ?>/images/azizi_phone.png"></a>
-						<a id="email-tab" href="#mail-popup" rel="wp-video-lightbox"><img src="<?php echo get_template_directory_uri(); ?>/images/azizi_email.png"></a>
-						<a id="espanol-tab" href="../espanol"><img src="<?php echo get_template_directory_uri(); ?>/images/azizi_espanol.png"></a>
+						<a id="phone-tab" href="tel:18009915292"><img alt="phone number" src="<?php echo get_template_directory_uri(); ?>/images/azizi_phone.png" height="31" width="188"></a>
+						<a id="email-tab" href="#mail-popup" rel="wp-video-lightbox"><img alt="email address" src="<?php echo get_template_directory_uri(); ?>/images/azizi_email.png" height="31" width="110"></a>
+						<a id="espanol-tab" href="http://<?php echo $_SERVER['HTTP_HOST'] ?>/dev/espanol"><img alt="Spanish Site" src="<?php echo get_template_directory_uri(); ?>/images/azizi_espanol.png" height="31" width="64"></a>
 					</div>
 					
 					<nav role="navigation">
@@ -89,10 +89,10 @@
 				<div id="inner-header-banner" class="wrap">
 					<table><tr><td>
 					<div class="threecol first clearfix" id="header-banner-image">
-						<img src="<?php echo get_template_directory_uri();?>/images/azizi_header-alt_photo.png">
+						<img alt="David Azizi, Attorney Portrait" src="<?php echo get_template_directory_uri();?>/images/azizi_header-alt_photo.png">
 					</div>
 					<div class="fivecol clearfix">
-						<img id="header-banner-text" src="<?php echo get_template_directory_uri();?>/images/azizi_header-alt_text.png">
+						<img alt="95% success rate personal injury law" id="header-banner-text" src="<?php echo get_template_directory_uri();?>/images/azizi_header-alt_text.png">
 					</div>
 				
 					<div id="home-boxes" class="fourcol clearfix">
@@ -117,18 +117,18 @@
 					<table><tr>
 						<td>
 						<div class="threecol first clearfix" id="home-features">
-						<img id="azizi-bust" src="<?php echo get_template_directory_uri();?>/images/azizi_bust.png">
+						<img alt="David Azizi Attorney Portrait" id="azizi-bust" src="<?php echo get_template_directory_uri();?>/images/azizi_bust.png" width="288" height="375">
 					</div>
 				
 					<div class="ninecol clearfix" id="home-special-content">
 						<div>
-							<img id="text-01" class="graphic-text" src="<?php echo get_template_directory_uri();?>/images/azizi_header_text_01.png">
+							<img alt="Personal Injury 98% success rate" id="text-01" class="graphic-text" src="<?php echo get_template_directory_uri();?>/images/azizi_header_text_01.png">
 						</div>
 						<div id ="home-boxes">
 							<div id="header-video">
-								<img src="<?php echo get_template_directory_uri(); ?>/images/azizi_video.jpg">
+								<img alt="personal injury law" src="<?php echo get_template_directory_uri(); ?>/images/azizi_video.jpg" width="181" height="130">
 								<a href="http://www.youtube.com/watch?v=M-3VlrceBzY" rel="wp-video-lightbox" id="play-button">
-									<img  src="<?php echo get_template_directory_uri();?>/images/azizi_header_play-btn.png" alt="">
+									<img alt="play button" src="<?php echo get_template_directory_uri();?>/images/azizi_header_play-btn.png" width="179" height="131">
 								</a>
 							</div> 
 							<div id="header-verdicts">
@@ -140,7 +140,7 @@
 						</div>
 					
 						<div id="header-consultation">
-							<img id="text-02" class="graphic-text" src="<?php echo get_template_directory_uri();?>/images/azizi_header_text_02.png">
+							<img alt="free consultation 24/7" id="text-02" class="graphic-text" src="<?php echo get_template_directory_uri();?>/images/azizi_header_text_02.png">
 						</div>
 					
 					</div>
