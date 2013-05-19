@@ -51,3 +51,10 @@ Firefox CSS Hacks.
 	}
 
 }
+
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+	#home-banner #home-boxes #play-button{
+		margin-top: 0px;
+		margin-left: -185px;
+	}
+}
