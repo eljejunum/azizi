@@ -1,15 +1,20 @@
 				<div id="sidebar1" class="sidebar fourcol last clearfix" role="complementary">
 					
-					<!--Search Bar-->
+					<!--Search Bar
 					<div class="widget" id="search-sidebar">
 						<div id="search-element"> 
 							<p><?php get_search_form(); ?></p>
 						</div>	
+					</div>-->
+					
+					<div id="sidebar-rate-now" class="sidebar-extra">	
+						<a target="_blank" href="http://nr4.me/AziziBeverlyHills"><img border="0" src="http://af91f37067a222fcd0c6-27c64dd07bbbb278bdc4ffa3ef7f7169.r37.cf2.rackcdn.com/NonBrandedRateUsNow.png" style="width:124px;height:65px;" alt="Rate Us" /></a>
 					</div>
 					
 					<!--Testimonials Content-->
 					<div class="widget" id="testimonials-sidebar">
 					<div class="sidebar-spacer"></div>
+						<h2>TESTIMONIOS</h2>
 						<?php global $more; $more = false; # some wordpress wtf logic
 					
 						$query_array = array(
@@ -36,7 +41,7 @@
 					
 						<?php endwhile; endif; ?>
 					
-						<div id="testimonials-link"><a href="<?php echo home_url(); ?>/category/testimonios">Mas Testimonios >></a></div>
+						<!--<div id="testimonials-link"><a href="<?php echo home_url(); ?>/category/testimonios">Mas Testimonios >></a></div>-->
 						<div class="sidebar-spacer"></div>
 					
 					</div>
@@ -44,8 +49,11 @@
 					<!--Email Me Content-->
 					<div class="widget" id="contact-sidebar">		
 						<h1>¿TIENE UNA PREGUNTA?</h1>
+						<?php echo do_shortcode('[contact-form-7 id="329" title="Sidebar Contact"]'); ?>
+						<!--content removed
 						<p>Envienos un correo electronico en cualquier momento,<br/>
 						haga <a href="#mail-popup" rel="wp-video-lightbox">click aqui</a>.</p>
+						-->
 					</div>
 						<div id="mail-popup" style="display:none;">
 							<?php echo do_shortcode('[contact-form-7 id="210" title="Contact form 1"]'); ?>
