@@ -7,6 +7,18 @@
 						</div>	
 					</div>-->
 					
+					<div class="widget" id="app-sidebar">
+						<h1>DESCARGA LA APLICACIÓN GRATIS PARA LOS ACCIDENTES!</h1>
+						
+						<p id="download-apple"><a href="https://itunes.apple.com/us/app/accident-app-by-law-offices/id662722415?ls=1&mt=8" target="_new">
+							<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/apple.png" alt="Accident App for iPhone and iPad">
+						</a></p>
+						<p id="download-google"><a href="https://play.google.com/store/apps/details?id=com.DAVIDAZIZI&feature=search_result#?t=W251bGwsMSwyLDEsImNvbS5EQVZJREFaSVpJIl0." target="_new">
+							<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/google.png" alt="Accident App for Android">
+						</a></p>
+						<div class="sidebar-spacer-small">&nbsp;</div> 
+					</div>
+					
 					<div id="sidebar-rate-now" class="sidebar-extra">	
 						<a target="_blank" href="http://nr4.me/AziziBeverlyHills"><img border="0" src="http://af91f37067a222fcd0c6-27c64dd07bbbb278bdc4ffa3ef7f7169.r37.cf2.rackcdn.com/NonBrandedRateUsNow.png" style="width:124px;height:65px;" alt="Rate Us" /></a>
 					</div>

@@ -7,6 +7,18 @@
 						</div>	
 					</div>-->
 					
+					<div class="widget" id="app-sidebar">
+						<h1>DOWNLOAD THE FREE <br/>ACCIDENT APP NOW!</h1>
+						<p>Accidents happen any time.  Always be prepared with the Accident App by Law Offices of David Azizi.</p>
+						<p id="download-apple"><a href="https://itunes.apple.com/us/app/accident-app-by-law-offices/id662722415?ls=1&mt=8" target="_new">
+							<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/apple.png" alt="Accident App for iPhone and iPad">
+						</a></p>
+						<p id="download-google"><a href="https://play.google.com/store/apps/details?id=com.DAVIDAZIZI&feature=search_result#?t=W251bGwsMSwyLDEsImNvbS5EQVZJREFaSVpJIl0." target="_new">
+							<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/google.png" alt="Accident App for Android">
+						</a></p>
+						<div class="sidebar-spacer-small">&nbsp;</div> 
+					</div>
+					
 					<div id="sidebar-rate-now" class="sidebar-extra">	
 						<a target="_blank" href="http://nr4.me/AziziBeverlyHills"><img border="0" src="http://af91f37067a222fcd0c6-27c64dd07bbbb278bdc4ffa3ef7f7169.r37.cf2.rackcdn.com/NonBrandedRateUsNow.png" style="width:124px;height:65px;" alt="Rate Us" /></a>
 					</div>
@@ -71,7 +83,7 @@
 							<li><a href="<?php echo home_url()?>/bike-accidents">Bike Accidents</a></li>
 							<li><a href="<?php echo home_url()?>/brain-injury">Brain Injury</a></li>
 							<li><a href="<?php echo home_url()?>/burn-fire-and-explosion-injuries">Burn, Fire, & Explosion Injury</a></li>
-							<li><a href="<?php echo home_url()?>/bus-accidnets">Bus Accidents</a></li>
+							<li><a href="<?php echo home_url()?>/bus-accidents">Bus Accidents</a></li>
 							<li><a href="<?php echo home_url()?>/car-accidents">Car Accidents</a></li>
 							<li><a href="<?php echo home_url()?>/claims-against-public-government-entities">Claims Against Government/Public Entities</a></li>
 							<li><a href="<?php echo home_url()?>/construction-accidents">Construction Accidents</a></li>

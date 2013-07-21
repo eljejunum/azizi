@@ -12,6 +12,7 @@
 		
 		<!-- Fonts -->
 		<link href='http://fonts.googleapis.com/css?family=Roboto+Condensed' rel='stylesheet' type='text/css'>
+		<link href="https://plus.google.com/u/0/111063509138386144253/about" rel="publisher" />
 		
 		<!-- Google Chrome Frame for IE -->
 		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
@@ -59,7 +60,7 @@
 					<div id="mobile-top-tabs">
 						<a id="phone-mobile-tab" href="tel:18009915292"><img alt="phone number" src="<?php echo get_template_directory_uri(); ?>/images/azizi_phone.png" height="31" width="188"></a>
 						<!--<a id="email-tab" href="#mail-popup" rel="wp-video-lightbox"><img src="<?php echo get_template_directory_uri(); ?>/images/azizi_email.png"></a>-->
-						<a id="espanol-mobile-tab" href="http://<?php echo $_SERVER['HTTP_HOST'] ?>/dev/espanol"><img alt="Spanish Site" src="<?php echo get_template_directory_uri(); ?>/images/azizi_espanol.png" height="31" width="64"></a>
+						<a id="espanol-mobile-tab" href="http://<?php echo $_SERVER['HTTP_HOST'] ?>/espanol"><img alt="Spanish Site" src="<?php echo get_template_directory_uri(); ?>/images/azizi_espanol.png" height="31" width="64"></a>
 					</div>
 					
 					<a href="<?php echo home_url(); ?>" rel="nofollow"><img alt="David Azizi Law Offices Logo" id="logo" src="<?php echo get_template_directory_uri(); ?>/images/azizi_logo.png" width="330" height="51"></a>
@@ -67,7 +68,7 @@
 					<div id="top-tabs">
 						<a id="phone-tab" href="tel:18009915292"><img alt="phone number" src="<?php echo get_template_directory_uri(); ?>/images/azizi_phone.png" height="31" width="188"></a>
 						<a id="email-tab" href="#mail-popup" rel="wp-video-lightbox"><img alt="email address" src="<?php echo get_template_directory_uri(); ?>/images/azizi_email.png" height="31" width="110"></a>
-						<a id="espanol-tab" href="http://<?php echo $_SERVER['HTTP_HOST'] ?>/dev/espanol"><img alt="Spanish Site" src="<?php echo get_template_directory_uri(); ?>/images/azizi_espanol.png" height="31" width="64"></a>
+						<a id="espanol-tab" href="http://<?php echo $_SERVER['HTTP_HOST'] ?>/espanol"><img alt="Spanish Site" src="<?php echo get_template_directory_uri(); ?>/images/azizi_espanol.png" height="31" width="64"></a>
 					</div>
 					
 					<nav role="navigation">

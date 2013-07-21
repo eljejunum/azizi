@@ -59,7 +59,7 @@
 					<div id="mobile-top-tabs">
 						<a id="phone-tab" href="tel:18883437436"><img src="<?php echo get_template_directory_uri(); ?>/images/azizi_phone.png"></a>
 						<!--<a id="email-tab" href="#mail-popup" rel="wp-video-lightbox"><img src="<?php echo get_template_directory_uri(); ?>/images/azizi_email.png"></a>-->
-						<a id="espanol-tab" href="http://<?php echo $_SERVER['HTTP_HOST'] ?>/dev/main"><img src="<?php echo get_template_directory_uri(); ?>/images/azizi_espanol.png"></a>
+						<a id="espanol-tab" href="http://<?php echo $_SERVER['HTTP_HOST'] ?>/main"><img src="<?php echo get_template_directory_uri(); ?>/images/azizi_espanol.png"></a>
 					</div>
 					
 					<a href="<?php echo home_url(); ?>" rel="nofollow"><img id="logo" src="<?php echo get_template_directory_uri(); ?>/images/azizi_logo.png"></a>
@@ -67,7 +67,7 @@
 					<div id="top-tabs">
 						<a id="phone-tab" href="tel:18883437436"><img src="<?php echo get_template_directory_uri(); ?>/images/azizi_phone.png"></a>
 						<a id="email-tab" href="#mail-popup" rel="wp-video-lightbox"><img src="<?php echo get_template_directory_uri(); ?>/images/azizi_email.png"></a>
-						<a id="espanol-tab" href="http://<?php echo $_SERVER['HTTP_HOST'] ?>/dev/main"><img src="<?php echo get_template_directory_uri(); ?>/images/azizi_espanol.png"></a>
+						<a id="espanol-tab" href="http://<?php echo $_SERVER['HTTP_HOST'] ?>/main"><img src="<?php echo get_template_directory_uri(); ?>/images/azizi_espanol.png"></a>
 					</div>
 					
 					<nav role="navigation">

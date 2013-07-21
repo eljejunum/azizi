@@ -66,7 +66,11 @@ The comments page for Bones
 
 	<?php if ( get_option('comment_registration') && !is_user_logged_in() ) : ?>
   	<div class="alert help">
-  		<p><?php printf( __('You must be %1$slogged in%2$s to post a comment.', 'bonestheme'), '<a href="<?php echo wp_login_url( get_permalink() ); ?>">', '</a>' ); ?></p>
+  		<p>
+		<?php printf( __('You must be %s to post a comment.', 'bonestheme'), '<a href="http://www.azizipersonalinjury.com/main/wp-admin">login</a>' ); ?>
+		</p>
+		
+		
   	</div>
 	<?php else : ?>
 
