@@ -66,11 +66,11 @@
 						</script>
 						
 						<div id="footer-social">
-							<a href="https://plus.google.com/u/0/b/102939525100717806392/102939525100717806392/posts"> <img alt="" src="http://azizipersonalinjury.com/images/gplus.png" width="32" height="32"/> </a> 
-							<a href="https://www.facebook.com/pages/Law-Offices-of-David-Azizi/497807886942033?ref=ts&amp;fref=ts"> <img alt="" src="http://azizipersonalinjury.com/images/fb.png" width="32" height="32"/> </a> 
-							<a href="https://twitter.com/davidazizila"> <img alt="" src="http://azizipersonalinjury.com/images/twitter.png" width="32" height="32"/> </a> 
-							<a href="http://www.yelp.com/biz/law-offices-of-david-azizi-los-angeles"> <img alt="" src="http://azizipersonalinjury.com/images/yelp.png" width="32" height="32"/> </a>
-							<a href="https://foursquare.com/v/law-offices-of-david-azizi/5154bb2cf2e77fb25375dcbb"> <img alt="" src="http://azizipersonalinjury.com/images/4sq.png" width="32" height="32"/> </a>
+							<a href="https://plus.google.com/u/0/b/102939525100717806392/102939525100717806392/posts"> <img alt="" src="<?php echo get_template_directory_uri(); ?>/images/gplus.png" width="32" height="32"/> </a> 
+							<a href="https://www.facebook.com/pages/Law-Offices-of-David-Azizi/497807886942033?ref=ts&amp;fref=ts"> <img alt="" src="<?php echo get_template_directory_uri(); ?>/images/fb.png" width="32" height="32"/> </a> 
+							<a href="https://twitter.com/davidazizila"> <img alt="" src="<?php echo get_template_directory_uri(); ?>/images/twitter.png" width="32" height="32"/> </a> 
+							<a href="http://www.yelp.com/biz/law-offices-of-david-azizi-los-angeles"> <img alt="" src="<?php echo get_template_directory_uri(); ?>/images/yelp.png" width="32" height="32"/> </a>
+							<a href="https://foursquare.com/v/law-offices-of-david-azizi/5154bb2cf2e77fb25375dcbb"> <img alt="" src="<?php echo get_template_directory_uri(); ?>/images/4sq.png" width="32" height="32"/> </a>
 						</div>
 						
 					</div>
