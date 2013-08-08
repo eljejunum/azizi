@@ -7,6 +7,7 @@
 						</div>	
 					</div>-->
 					
+					<!-- APP CTA -->
 					<div class="widget" id="app-sidebar">
 						<h1>DOWNLOAD THE FREE <br/>ACCIDENT APP NOW!</h1>
 						<p>Accidents happen any time.  Always be prepared with the Accident App by Law Offices of David Azizi.</p>
@@ -19,11 +20,30 @@
 						<div class="sidebar-spacer-small">&nbsp;</div> 
 					</div>
 					
+					<!-- Rate Now -->
 					<div id="sidebar-rate-now" class="sidebar-extra">	
 						<a target="_blank" href="http://nr4.me/AziziBeverlyHills"><img border="0" src="http://af91f37067a222fcd0c6-27c64dd07bbbb278bdc4ffa3ef7f7169.r37.cf2.rackcdn.com/NonBrandedRateUsNow.png" style="width:124px;height:65px;" alt="Rate Us" /></a>
+						
+						<!-- Yelp -->
+						<div id="yelp-biz-badge-plain-MeIU4do-zQCAC-JUg6H_1w">Law Offices of David Azizi</div>
+ 
+						<script type="text/javascript">
+						!function(doc, id){
+						  var js;
+						  var scriptElement = doc.getElementsByTagName("script")[0];
+						  if (!doc.getElementById(id)) {
+							js = doc.createElement("script");
+							js.id = id;
+							js.src = "//dyn.yelpcdn.com/biz_badge_js/plain/MeIU4do-zQCAC-JUg6H_1w.js";
+							scriptElement.parentNode.insertBefore(js, scriptElement);
+						  }
+						} (document, "yelp-biz-badge-script-plain-MeIU4do-zQCAC-JUg6H_1w");
+						</script>
+						
 					</div>
 					
-					<div>
+					<div class="sidebar-spacer">&nbsp;</div>
+
 					
 					<!--Testimonials Content-->
 					<div class="widget" id="testimonials-sidebar">
@@ -55,7 +75,7 @@
 					
 						<?php endwhile; endif; ?>
 					
-						<div id="testimonials-link"><a href="<?php echo home_url(); ?>/category/testimonials">More testimonials >></a></div>
+						<div id="testimonials-link"><a href="<?php echo home_url(); ?>/blog/category/testimonials">More testimonials >></a></div>
 						<div class="sidebar-spacer"></div>
 						
 					</div>

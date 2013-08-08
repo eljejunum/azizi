@@ -97,7 +97,7 @@
 				
 					<div id="home-boxes" class="fourcol clearfix">
 						<div id="header-verdicts">
-							<a href="<?php echo get_home_url() ?>/category/veredictos-asentamientos/"><h1 class="lang-spanish">VEREDICTOS & ASENTAMIENTOS</h1></a>
+							<a href="<?php echo get_home_url() ?>/blog/category/veredictos-asentamientos/"><h1 class="lang-spanish">VEREDICTOS & ASENTAMIENTOS</h1></a>
 							<div id="header-ticker" style="margin-left:10px;margin-right:10px;">
 								<?php if(function_exists('ditty_news_ticker')){ditty_news_ticker(72);} ?>
 							</div>
@@ -132,7 +132,7 @@
 								</a>
 							</div>
 							<div id="header-verdicts">
-								<a href="<?php echo get_home_url() ?>/category/veredictos-asentamientos/"><h1 class="lang-spanish">VEREDICTOS & ASENTAMIENTOS</h1></a>
+								<a href="<?php echo get_home_url() ?>/blog/category/veredictos-asentamientos/"><h1 class="lang-spanish">VEREDICTOS & ASENTAMIENTOS</h1></a>
 								<div id="header-ticker" style="margin-left:10px;margin-right:10px;">
 									<?php if(function_exists('ditty_news_ticker')){ditty_news_ticker(72);} ?>
 								</div>

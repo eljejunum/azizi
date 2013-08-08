@@ -1,0 +1,24 @@
+# BEGIN WordPress
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /
+RewriteRule ^index\.php$ - [L]
+
+# Send all sub-path blog content requests to correct path 
+RewriteCond %{REQUEST_FILENAME} -f
+RewriteCond %{REQUEST_FILENAME} -d
+
+RewriteRule ^ - [L]
+RewriteRule ^([_0-9a-zA-Z-]+/)?(wp-(content|admin|includes).*) $2 [L]
+RewriteRule ^([_0-9a-zA-Z-]+/)?(.*\.php)$ $2 [L]
+RewriteRule . /index.php [L]
+
+</IfModule>
+
+
+# Old Site Redirects
+Redirect 301 /main /
+Redirect 301 /spanish /espanol
+Redirect 301 /category/verdicts-settlements /blog/category/verdicts-settlements
+Redirect 301 /category/testimonials /blog/category/testimonials
+
