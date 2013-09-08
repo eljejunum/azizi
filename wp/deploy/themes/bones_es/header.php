@@ -57,9 +57,9 @@
 				<div id="inner-header" class="wrap clearfix">
 				
 					<div id="mobile-top-tabs">
-						<a id="phone-tab" href="tel:18883437436"><img src="<?php echo get_template_directory_uri(); ?>/images/azizi_phone.png"></a>
+						<a id="phone-tab" href="tel:18883437436" rel="nofollow"><img src="<?php echo get_template_directory_uri(); ?>/images/azizi_phone.png"></a>
 						<!--<a id="email-tab" href="#mail-popup" rel="wp-video-lightbox"><img src="<?php echo get_template_directory_uri(); ?>/images/azizi_email.png"></a>-->
-						<a id="espanol-tab" href="http://<?php echo $_SERVER['HTTP_HOST'] ?>/main"><img src="<?php echo get_template_directory_uri(); ?>/images/azizi_espanol.png"></a>
+						<a id="espanol-tab" href="http://www.azizipersonalinjury.com/"><img src="<?php echo get_template_directory_uri(); ?>/images/azizi_espanol.png"></a>
 					</div>
 					
 					<a href="<?php echo home_url(); ?>" rel="nofollow"><img id="logo" src="<?php echo get_template_directory_uri(); ?>/images/azizi_logo.png"></a>
@@ -81,7 +81,7 @@
 			<?php
 				$currentPage = get_the_ID();
 				
-				if($currentPage != '25') :  
+				if($currentPage != '25' || $currentPage == '25') :  
 			?>
 			
 			<div id="header-banner" role="banner"> 
@@ -97,7 +97,7 @@
 				
 					<div id="home-boxes" class="fourcol clearfix">
 						<div id="header-verdicts">
-							<a href="<?php echo get_home_url() ?>/blog/category/veredictos-asentamientos/"><h1 class="lang-spanish">VEREDICTOS & ASENTAMIENTOS</h1></a>
+							<a href="<?php echo get_home_url() ?>/category/veredictos-asentamientos/"><h1 class="lang-spanish">VEREDICTOS & ASENTAMIENTOS</h1></a>
 							<div id="header-ticker" style="margin-left:10px;margin-right:10px;">
 								<?php if(function_exists('ditty_news_ticker')){ditty_news_ticker(72);} ?>
 							</div>
@@ -132,7 +132,7 @@
 								</a>
 							</div>
 							<div id="header-verdicts">
-								<a href="<?php echo get_home_url() ?>/blog/category/veredictos-asentamientos/"><h1 class="lang-spanish">VEREDICTOS & ASENTAMIENTOS</h1></a>
+								<a href="<?php echo get_home_url() ?>/category/veredictos-asentamientos/"><h1 class="lang-spanish">VEREDICTOS & ASENTAMIENTOS</h1></a>
 								<div id="header-ticker" style="margin-left:10px;margin-right:10px;">
 									<?php if(function_exists('ditty_news_ticker')){ditty_news_ticker(72);} ?>
 								</div>

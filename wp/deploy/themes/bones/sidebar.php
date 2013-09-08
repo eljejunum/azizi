@@ -20,12 +20,16 @@
 						<div class="sidebar-spacer-small">&nbsp;</div> 
 					</div>
 					
-					<!-- Rate Now -->
+					<!-- RATINGS -->
 					<div id="sidebar-rate-now" class="sidebar-extra">	
-						<a target="_blank" href="http://nr4.me/AziziBeverlyHills"><img border="0" src="http://af91f37067a222fcd0c6-27c64dd07bbbb278bdc4ffa3ef7f7169.r37.cf2.rackcdn.com/NonBrandedRateUsNow.png" style="width:124px;height:65px;" alt="Rate Us" /></a>
+						
+						<!-- Rate Now -->
+						<div class="sixcol first clearfix">
+							<a target="_blank" href="http://nr4.me/AziziBeverlyHills"><img border="0" src="http://af91f37067a222fcd0c6-27c64dd07bbbb278bdc4ffa3ef7f7169.r37.cf2.rackcdn.com/NonBrandedRateUsNow.png" style="width:124px;height:65px;" alt="Rate Us" /></a>
+						</div>
 						
 						<!-- Yelp -->
-						<div id="yelp-biz-badge-plain-MeIU4do-zQCAC-JUg6H_1w">Law Offices of David Azizi</div>
+						<div style="top: 15px;" class="sixcol last clearfix yelp" id="yelp-biz-badge-plain-MeIU4do-zQCAC-JUg6H_1w">Law Offices of David Azizi</div>
  
 						<script type="text/javascript">
 						!function(doc, id){
@@ -75,7 +79,7 @@
 					
 						<?php endwhile; endif; ?>
 					
-						<div id="testimonials-link"><a href="<?php echo home_url(); ?>/blog/category/testimonials">More testimonials >></a></div>
+						<div id="testimonials-link"><a href="<?php echo home_url(); ?>/blog/category/testimonials/">More testimonials >></a></div>
 						<div class="sidebar-spacer"></div>
 						
 					</div>
@@ -99,33 +103,33 @@
 						<h1>PRACTICE AREAS</h1>
 						<table id="practice-table"><tr><td>
 						<ul>
-							<li><a href="<?php echo home_url()?>/amputation-injury">Amputation Injury</a></li>
-							<li><a href="<?php echo home_url()?>/bike-accidents">Bike Accidents</a></li>
-							<li><a href="<?php echo home_url()?>/brain-injury">Brain Injury</a></li>
-							<li><a href="<?php echo home_url()?>/burn-fire-and-explosion-injuries">Burn, Fire, & Explosion Injury</a></li>
-							<li><a href="<?php echo home_url()?>/bus-accidents">Bus Accidents</a></li>
-							<li><a href="<?php echo home_url()?>/car-accidents">Car Accidents</a></li>
-							<li><a href="<?php echo home_url()?>/claims-against-public-government-entities">Claims Against Government/Public Entities</a></li>
-							<li><a href="<?php echo home_url()?>/construction-accidents">Construction Accidents</a></li>
-							<li><a href="<?php echo home_url()?>/defective-and-dangerous-roads">Dangerous Roads</a></li>
-							<li><a href="<?php echo home_url()?>/defective-products">Defective Products</a></li>
-							<li><a href="<?php echo home_url()?>/dog-bites-and-attacks">Dog Bites & Attacks</a></li>
+							<li><a href="<?php echo home_url()?>/amputation-injury/">Amputation Injury</a></li>
+							<li><a href="<?php echo home_url()?>/bike-accidents/">Bike Accidents</a></li>
+							<li><a href="<?php echo home_url()?>/brain-injury/">Brain Injury</a></li>
+							<li><a href="<?php echo home_url()?>/burn-fire-and-explosion-injuries/">Burn, Fire, & Explosion Injury</a></li>
+							<li><a href="<?php echo home_url()?>/bus-accidents/">Bus Accidents</a></li>
+							<li><a href="<?php echo home_url()?>/car-accidents/">Car Accidents</a></li>
+							<li><a href="<?php echo home_url()?>/claims-against-public-government-entities/">Claims Against Government/Public Entities</a></li>
+							<li><a href="<?php echo home_url()?>/construction-accidents/">Construction Accidents</a></li>
+							<li><a href="<?php echo home_url()?>/defective-and-dangerous-roads/">Dangerous Roads</a></li>
+							<li><a href="<?php echo home_url()?>/defective-products/">Defective Products</a></li>
+							<li><a href="<?php echo home_url()?>/dog-bites-and-attacks/">Dog Bites & Attacks</a></li>
 						</ul>
 						</td>
 						<td>
 						<ul>
-							<li><a href="<?php echo home_url()?>/electrocution-accidents">Electrocution Accidents</a></li>
-							<li><a href="<?php echo home_url()?>/motorcycle-accidents">Motorcycle Accidents</a></li>
-							<li><a href="<?php echo home_url()?>/negligent-security">Negligent Security</a></li>
-							<li><a href="<?php echo home_url()?>/paraplegia-injuries">Paraplegia Injury</a></li>
-							<li><a href="<?php echo home_url()?>/pedestrian-accidents">Pedestrian Accidents</a></li>
-							<li><a href="<?php echo home_url()?>/quadriplegia-injuries">Quadriplegia Injury</a></li>
-							<li><a href="<?php echo home_url()?>/slip-and-fall">Slip & Fall Accidents</a></li>
-							<li><a href="<?php echo home_url()?>/spinal-cord-injuries">Spinal Cord Injury</a></li>
-							<li><a href="<?php echo home_url()?>/train-accidents">Train Accidents</a></li>
-							<li><a href="<?php echo home_url()?>/truck-accidents">Truck Accidents</a></li>
-							<li><a href="<?php echo home_url()?>/vehicle-rollovers">Vehicle Rollovers</a></li>
-							<li><a href="<?php echo home_url()?>/wrongful-death">Wrongful Death</a></li>
+							<li><a href="<?php echo home_url()?>/electrocution-accidents/">Electrocution Accidents</a></li>
+							<li><a href="<?php echo home_url()?>/motorcycle-accidents/">Motorcycle Accidents</a></li>
+							<li><a href="<?php echo home_url()?>/negligent-security/">Negligent Security</a></li>
+							<li><a href="<?php echo home_url()?>/paraplegia-injuries/">Paraplegia Injury</a></li>
+							<li><a href="<?php echo home_url()?>/pedestrian-accidents/">Pedestrian Accidents</a></li>
+							<li><a href="<?php echo home_url()?>/quadriplegia-injuries/">Quadriplegia Injury</a></li>
+							<li><a href="<?php echo home_url()?>/slip-and-fall/">Slip & Fall Accidents</a></li>
+							<li><a href="<?php echo home_url()?>/spinal-cord-injuries/">Spinal Cord Injury</a></li>
+							<li><a href="<?php echo home_url()?>/train-accidents/">Train Accidents</a></li>
+							<li><a href="<?php echo home_url()?>/truck-accidents/">Truck Accidents</a></li>
+							<li><a href="<?php echo home_url()?>/vehicle-rollovers/">Vehicle Rollovers</a></li>
+							<li><a href="<?php echo home_url()?>/wrongful-death/">Wrongful Death</a></li>
 						</ul>
 						</td></tr></table>
 					</div>

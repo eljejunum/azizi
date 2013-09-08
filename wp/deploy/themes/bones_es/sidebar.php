@@ -76,33 +76,33 @@
 						<h1>AREAS DE PRÁCTICA</h1>
 						<table id="practice-table"><tr><td>
 						<ul>
-							<li><a href="<?php echo home_url()?>/accidente-en-autobus">Accidente en Autobús</a></li>
-							<li><a href="<?php echo home_url()?>/accidente-en-camion">Accidente en Camión</a></li>
-							<li><a href="<?php echo home_url()?>/accidentes-de-auto-que-se-voltio">Accidentes de Auto que se Voltio</a></li>
-							<li><a href="<?php echo home_url()?>/accidentes-de-biciclete">Accidentes de Biciclete</a></li>
-							<li><a href="<?php echo home_url()?>/accidentes-de-caminos-peligrosos">Accidentes de Caminos Peligrosos</a></li>
-							<li><a href="<?php echo home_url()?>/accidentes-de-coche">Accidentes de Coche</a></li>
-							<li><a href="<?php echo home_url()?>/accidentes-de-construccion">Accidentes de construcción</a></li>
-							<li><a href="<?php echo home_url()?>/accidentes-de-electrocucion">Accidentes de Electrocución</a></li>
-							<li><a href="<?php echo home_url()?>/accidentes-de-motocicleta">Accidentes de Motocicleta</a></li>
-							<li><a href="<?php echo home_url()?>/accidentes-de-peatones">Accidentes de Peatones</a></li>
-							<li><a href="<?php echo home_url()?>/accidentes-de-resbalon-y-caida">Accidentes de Resbalón y Caída</a></li>
-							<li><a href="<?php echo home_url()?>/accidentes-de-tren">Accidentes de Tren</a></li>
+							<li><a href="<?php echo home_url()?>/accidente-en-autobus/">Accidente en Autobús</a></li>
+							<li><a href="<?php echo home_url()?>/accidente-en-camion/">Accidente en Camión</a></li>
+							<li><a href="<?php echo home_url()?>/accidentes-de-auto-que-se-voltio/">Accidentes de Auto que se Voltio</a></li>
+							<li><a href="<?php echo home_url()?>/accidentes-de-biciclete/">Accidentes de Biciclete</a></li>
+							<li><a href="<?php echo home_url()?>/accidentes-de-caminos-peligrosos/">Accidentes de Caminos Peligrosos</a></li>
+							<li><a href="<?php echo home_url()?>/accidentes-de-coche/">Accidentes de Coche</a></li>
+							<li><a href="<?php echo home_url()?>/accidentes-de-construccion/">Accidentes de construcción</a></li>
+							<li><a href="<?php echo home_url()?>/accidentes-de-electrocucion/">Accidentes de Electrocución</a></li>
+							<li><a href="<?php echo home_url()?>/accidentes-de-motocicleta/">Accidentes de Motocicleta</a></li>
+							<li><a href="<?php echo home_url()?>/accidentes-de-peatones/">Accidentes de Peatones</a></li>
+							<li><a href="<?php echo home_url()?>/accidentes-de-resbalon-y-caida/">Accidentes de Resbalón y Caída</a></li>
+							<li><a href="<?php echo home_url()?>/accidentes-de-tren/">Accidentes de Tren</a></li>
 						</ul>
 						</td>
 						<td>
 						<ul>
-							<li><a href="<?php echo home_url()?>/herida-de-cuadriplegia">Herida de Cuadriplegía</a></li>
-							<li><a href="<?php echo home_url()?>/herida-de-medula-espinal">Herida de Médula Espinal</a></li>
-							<li><a href="<?php echo home_url()?>/herida-de-paraplejia">Herida de Paraplejía</a></li>
-							<li><a href="<?php echo home_url()?>/heridas-de-amputacion">Heridas de Amputación</a></li>
-							<li><a href="<?php echo home_url()?>/heridas-de-cerebro">Heridas de Cerebro</a></li>
-							<li><a href="<?php echo home_url()?>/productos-defectuosos">Heridas de Productos Defectuosos</a></li>
-							<li><a href="<?php echo home_url()?>/heridas-fuero-o-explosion">Heridas Fuero o Explosión</a></li>
-							<li><a href="<?php echo home_url()?>/los-reclamos-contra-entidades-de-publicogobierno">Los reclamos Contra Entidades de Público/Gobierno</a></li>
-							<li><a href="<?php echo home_url()?>/mordeduras-de-perro-y-ataques">Mordeduras de Perro y Ataques</a></li>
-							<li><a href="<?php echo home_url()?>/muerte-injusta">Muerte Injusta</a></li>
-							<li><a href="<?php echo home_url()?>/seguridad-negligente">Seguridad Negligente</a></li>
+							<li><a href="<?php echo home_url()?>/herida-de-cuadriplegia/">Herida de Cuadriplegía</a></li>
+							<li><a href="<?php echo home_url()?>/herida-de-medula-espinal/">Herida de Médula Espinal</a></li>
+							<li><a href="<?php echo home_url()?>/herida-de-paraplejia/">Herida de Paraplejía</a></li>
+							<li><a href="<?php echo home_url()?>/heridas-de-amputacion/">Heridas de Amputación</a></li>
+							<li><a href="<?php echo home_url()?>/heridas-de-cerebro/">Heridas de Cerebro</a></li>
+							<li><a href="<?php echo home_url()?>/productos-defectuosos/">Heridas de Productos Defectuosos</a></li>
+							<li><a href="<?php echo home_url()?>/heridas-fuero-o-explosion/">Heridas Fuero o Explosión</a></li>
+							<li><a href="<?php echo home_url()?>/los-reclamos-contra-entidades-de-publicogobierno/">Los reclamos Contra Entidades de Público/Gobierno</a></li>
+							<li><a href="<?php echo home_url()?>/mordeduras-de-perro-y-ataques/">Mordeduras de Perro y Ataques</a></li>
+							<li><a href="<?php echo home_url()?>/muerte-injusta/">Muerte Injusta</a></li>
+							<li><a href="<?php echo home_url()?>/seguridad-negligente/">Seguridad Negligente</a></li>
 						</ul>
 						</td></tr></table>
 					</div>

@@ -63,10 +63,13 @@ need.
 
 function bones_head_cleanup() {
 	// category feeds
-	// remove_action( 'wp_head', 'feed_links_extra', 3 );
+	 remove_action( 'wp_head', 'feed_links_extra', 3 );
 	// post and comment feeds
-	// remove_action( 'wp_head', 'feed_links', 2 );
+	 remove_action( 'wp_head', 'feed_links', 2 );
 	// EditURI link
+	
+	remove_action( 'wp_head', 'feed_links' );
+	
 	remove_action( 'wp_head', 'rsd_link' );
 	// windows live writer
 	remove_action( 'wp_head', 'wlwmanifest_link' );
@@ -220,6 +223,8 @@ function bones_theme_support() {
 			'footer-links' => __( 'Footer Links', 'bonestheme' ) // secondary nav in footer
 		)
 	);
+	
+	
 } /* end bones theme support */
 
 
